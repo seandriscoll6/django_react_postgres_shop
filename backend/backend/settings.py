@@ -142,8 +142,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'proshop',
         'USER': 'seand',
-        'PASSWORD': 'cabbage12345',
-        'HOST': 'proshop-identifier.c8xyff7xf6rb.ap-southeast-2.rds.amazonaws.com',
+        'PASSWORD': '******',
+        'HOST': '***********',
         'PORT': '5432'
     }
 }
@@ -203,6 +203,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
 
 STORAGES = {"default": {"BACKEND": "storages.backends.s3boto3.S3Boto3Storage"}}
-AWS_ACCESS_KEY_ID = 'AKIA3FRLBQMTIXOLQR4O'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = '****'
+AWS_SECRET_ACCESS_KEY = '****'
 AWS_STORAGE_BUCKET_NAME = 'proshop-bucket6'
